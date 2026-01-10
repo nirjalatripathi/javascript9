@@ -14,3 +14,14 @@ else{
     }
 }
 console.log (num+"is Prime:",isPrime);
+
+// Q.2. Write a program that takes a number and reverses it using loop.
+let originalNumber= 9876;
+let reversedNumber=0;
+while (originalNumber >0) {
+    let digit =originalNumber % 10;
+    reversedNumber= reversedNumber *10 + digit;
+    originalNumber=Math.floor(originalNumber/10);
+
+}
+console.log ("Reversed number is", reversedNumber);
