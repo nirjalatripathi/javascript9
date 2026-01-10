@@ -34,3 +34,15 @@ console.log ("Reversed number is", reversedNumber);
     digitNum= Math.floor (digitNum /10);
  }
  console.log ("Total digits are",count);
+
+ //Write a program to print the first N Fibonacci numbers using a loop.
+ let n=10
+ let first =5
+ let second=1;
+ console.log ("Fibonacci series:");
+ for (let i=1; i <=n; i++) {
+    console.log (first);
+    let next =first + second;
+    first=second;
+    second=next;
+ }
