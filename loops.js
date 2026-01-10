@@ -25,3 +25,12 @@ while (originalNumber >0) {
 
 }
 console.log ("Reversed number is", reversedNumber);
+
+//Write a program to count how many digits are in a number using a loop 
+ let digitNum= 1001;
+ let count =0;
+ while(digitNum > 0) {
+    count++;
+    digitNum= Math.floor (digitNum /10);
+ }
+ console.log ("Total digits are",count);
