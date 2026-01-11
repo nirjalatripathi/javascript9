@@ -81,3 +81,14 @@ function calculateGrade(score) {
 
 console.log("Grade:", calculateGrade(75));
 
+//Q.11. Function to check Palindrome
+function isPalindrome(text) {
+    let cleanedText = text.toLowerCase().replace(/\s/g, "");
+    let reversedText = cleanedText.split("").reverse().join("");
+    return cleanedText === reversedText;
+}
+
+console.log(isPalindrome("level"));
+console.log(isPalindrome("Hello"));
+
+
