@@ -55,5 +55,12 @@ function createUsername (firstname, lastname="user") {
 
 console.log (createUsername("Nirjala", "Tripathi"));
 
-
+//Q.8. Function using callback 
+function applyOperation (num1, num2, operation) {
+    return operation (num1, num2);
+}
+function add(a,b) {
+    return a+b;
+}
+console.log ("Addition:", applyOperation(6, 3, add));
 
