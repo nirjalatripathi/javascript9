@@ -48,4 +48,12 @@ function reverseString(text) {
 }
 console.log(reverseString("hello"));
 
+//Q.7. Create a username
+function createUsername (firstname, lastname="user") {
+    return (firstname + "_" + lastname). toLowerCase();
+}
+
+console.log (createUsername("Nirjala", "Tripathi"));
+
+
 
