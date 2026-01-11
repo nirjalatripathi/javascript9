@@ -20,3 +20,10 @@ function isEven(num) {
 }
 console.log ("Is 13 even?", isEven (13));
 
+//Q.4. Convert Celsius to Fahrenheit
+function celsiusToFahrenheit (celsius) {
+    return (celsius*9/5) +32;
+}
+console.log ("5 degree C in Fahrenheit is", celsiusToFahrenheit(5));
+
+
