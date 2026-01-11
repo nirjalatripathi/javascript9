@@ -13,3 +13,10 @@ return area;
 }
 let result= calculateArea (5,8);
 console.log ("Area of rectangle is",result);
+
+// Q.3. Checking odd or even 
+function isEven(num) {
+    return num %2 ===0;
+}
+console.log ("Is 13 even?", isEven (13));
+
