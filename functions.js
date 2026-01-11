@@ -38,4 +38,14 @@ function findMax (numbers) {
 }
 console.log ("maximum value:", findMax([3, 7, 2, 9, 1]));
 
+// Q.6. Reverse a string 
+function reverseString(text) {
+    let reversed="";
+    for (let i= text.length - 1; i>=0; i--) {
+        reversed+=text[i];
+    }
+    return reversed;
+}
+console.log(reverseString("hello"));
+
 
