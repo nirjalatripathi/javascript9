@@ -64,3 +64,20 @@ function add(a,b) {
 }
 console.log ("Addition:", applyOperation(6, 3, add));
 
+//Q.9. Flter the adults age
+function filterAdults(age) {
+    return age.filter(age=> age>= 18);
+}
+console.log(filterAdults([11, 15, 18, 33, 20]));
+
+//Q.10. Function to calculate grade
+function calculateGrade(score) {
+    if (score >= 90) return "A";
+    else if (score >= 80) return "B";
+    else if (score >= 70) return "C";
+    else if (score >= 60) return "D";
+    else return "F";
+}
+
+console.log("Grade:", calculateGrade(75));
+
